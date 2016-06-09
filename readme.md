@@ -9,8 +9,6 @@ Market: SF, DN
 
 ## Why is this important?
 
-[Hook]: # (Practice makes perfect and more practice with flow of control helps long term.)
-
 *"Control flow" refers to the way our computers move through a program's code. Understanding control flow allows us to trace the flow of a program based on its code. This skill is essential for programming in every language and paradigm. In particular,* **conditionals** *and* **loops** *are fundamental to understanding modern programming languages.*
 
 ## What are the objectives?
@@ -22,7 +20,38 @@ Market: SF, DN
 ## Where should we be now?
 *Before this workshop, developers should already be able to:*
 - create basic `if else` conditionals
-- create basic `for` loops
+- create basic `for` and `while` loops
+
+## Motivator (10 min) 
+
+We're actually starting to 
+
+We can even help Santa Claus out.
+
+```javascript
+var niceList = [];
+var naughtyList = [];
+var jimmy = {name: "Jimmy", nice: true, present: "bike"};
+var suzy = {name: "Suzy", nice: false};
+var kendra = {name: "Kendra", nice: true, present: "xbox"};
+
+var child;
+while (niceList + naughtyList) {
+	if(niceList){
+		child = niceList.pop 
+		console.log("Deliver "+ child.name + " " + child.present);
+	} else 
+	{
+		child = naughtyList.pop
+		console.log("Leave " + child.name + " a lump of coal");
+	}
+}
+console.log("All presents delivered!"); 
+```
+
+Let's run this program and see what happens.
+
+What?!?! What's going on here?
 
 ## Thruthiness vs Falsiness (10 min)
 *In programming something that* **evaluates** *to True is said to be truthy.*
@@ -79,7 +108,7 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
-## Nested If Statements (20 min)
+## Nested If Statements (15 min)
 
 `if` statements can be nested infinitely!
 
