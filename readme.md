@@ -1,12 +1,15 @@
 <!--
 Creator: Alex White
-Market: SF
+Editor: 
+Market: SF, DN
 -->
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
 # Mastering Control Flow
 
 ## Why is this important?
+
+[Hook]: # (Practice makes perfect and more practice with flow of control helps long term.)
 
 *"Control flow" refers to the way our computers move through a program's code. Understanding control flow allows us to trace the flow of a program based on its code. This skill is essential for programming in every language and paradigm. In particular,* **conditionals** *and* **loops** *are fundamental to understanding modern programming languages.*
 
@@ -21,7 +24,7 @@ Market: SF
 - create basic `if else` conditionals
 - create basic `for` loops
 
-## Thruthiness vs Falsiness
+## Thruthiness vs Falsiness (10 min)
 *In programming something that* **evaluates** *to True is said to be truthy.*
 
 *Something that* **evaluates** *to False is said to be falsy.*
@@ -57,7 +60,9 @@ Why!?
 
 `!!{}`
 
-### `==` vs `===`
+[CFU]: # (Try a stop and jot first before trying the console.) 
+
+## `==` vs `===` (10 min)
 In JavaScript there are two operators used for comparison, `==` and `===`.
 The distinction is simple. Triple-equals checks the *type* while double-equals does not.
 Therefor:
@@ -74,10 +79,9 @@ However, things in JavaScript aren't always so logical...
 
 [WAT?](https://www.destroyallsoftware.com/talks/wat)
 
-### Nested If Statements
+## Nested If Statements (20 min)
 
 `if` statements can be nested infinitely!
-
 
 Example:
 ```javascript
@@ -91,6 +95,8 @@ if(isRaining){
 ```
 
 That doesn't mean you should nest so deep! More than two layers of `if / else` statement is probably a bad idea.
+
+[CFU]: # (What might be a way to stop nesting if you need lots of logic) 
 
 ### Exercise
 #### Can I ride?
@@ -116,7 +122,10 @@ Edit the code above to check the following additional Requirements:
 - Replace the previous rule: now riders under 12 must be accompanied by an adult.
 - If the boss isn't looking, you can sneak in!
 - Riders with a park pass get in free.
+
+Take 6 minutes to work on this. After minute 4, I'll start working on the excercise with my solution.
 [Solution](/solution.js)
+
 
 ### Ternary Operator
 You can think about the ternary operator as a concise "if-else in one line":
@@ -124,7 +133,7 @@ You can think about the ternary operator as a concise "if-else in one line":
 isRaining ? callTaxi() : keepWalking();
 ```
 
-### `while` loops
+## `while` loops (5 mins) 
 
 ![Endless Doughnuts](http://img.pandawhale.com/78624-Homer-Simpson-infinite-donuts-P3EQ.gif)
 
@@ -163,7 +172,7 @@ function testBreak(x) {
 ```
 *-from MDN*
 
-### `switch` statements
+## `switch` statements (5 min)
 The switch statement evaluates an expression, matching the expression's value to a case clause, and executes statements associated with that case.
 
 #### Example:
