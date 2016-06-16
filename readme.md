@@ -24,7 +24,7 @@ Market: SF, DN
 
 ## Motivator (10 min) 
 
-We're actually starting to 
+We're actually starting to write some code that does some real work.
 
 We can even help Santa Claus out.
 
